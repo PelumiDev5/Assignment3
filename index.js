@@ -4,7 +4,7 @@ const express = require("express");
 const app = express();
 const path = require("path");
 const upload_router = require("./router/upload_router");
-const fetch_router = require("./router/fetch_router")
+const fetch_router = require("./router/fetch_router");
 
 // Middleware
 app.use(express.urlencoded({ extended: true }));
