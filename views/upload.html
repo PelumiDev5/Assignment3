@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>Upload File</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Upload File</h1>
-    <form action="/upload" method="POST" enctype="multipart/form-data">
-        <input type="file" name="file" />
-        <button type="submit">Upload</button>
+    <form action="/upload/multiple" method="POST" enctype="multipart/form-data">
+      <input type="file" name="files" />
+      <button type="submit">Upload</button>
     </form>
-</body>
+  </body>
 </html>
